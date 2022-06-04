@@ -1,5 +1,5 @@
 {
-  "name": "my-rick-and-morty-wiki",
+  "name": "next-oeson",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,7 @@
     "next": "9.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
-  }
+  },
+  "keywords": [],
+  "description": "Oeson website on Next Js"
 }

@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import Link from "next/link";
+
 function Header() {
   const router = useRouter();
   const [currentPath, setCurrentPath] = useState("/");
@@ -12,9 +14,9 @@ function Header() {
     <div>
       <header>
         <nav className="navbar navbar-expand-lg">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" href="/">
             <div className="logo-img"></div>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,29 +31,29 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" href="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/services">
+                <Link className="nav-link" href="/services">
                   Services
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/career">
+                <Link className="nav-link" href="/career">
                   Career
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <Link className="nav-link" href="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <Link className="nav-link" href="/contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

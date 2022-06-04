@@ -1,0 +1,7 @@
+div.logo-img {
+  width: 12rem;
+  height: 3.7rem;
+  background-image: url(https://oeson.b-cdn.net/New%20folder/logo_75_less.png);
+  background-size: cover;
+  background-position: center;
+}
